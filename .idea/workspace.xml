@@ -1,22 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e47558-11f0-4ed7-a1ed-6ca8637b5dfa" name="Default Changelist" comment="" />
+    <list default="true" id="23e47558-11f0-4ed7-a1ed-6ca8637b5dfa" name="Default Changelist" comment="tio实现p2p网络">
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/P2PClientLinstener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/P2pClientAioHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/MsgPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/P2PServerAioHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XfUGXiLrSmeZp9hXGoK0FNNqug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientMain" />
+      <module name="p2p" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="p2p" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerMain" />
+      <module name="p2p" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.ServerMain" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ServerMain" />
+        <item itemvalue="Application.ClientMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,8 +120,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581436546331</updated>
-      <workItem from="1581436551700" duration="1000" />
+      <workItem from="1581436551700" duration="24267000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tio实现p2p网络" />
+    <option name="LAST_COMMIT_MESSAGE" value="tio实现p2p网络" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581511560552">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="141" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581511560552" />
+    <state x="149" y="103" width="374" height="555" key="#com.intellij.ide.util.MemberChooser" timestamp="1581515036190">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="149" y="103" width="374" height="555" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581515036190" />
+    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2" timestamp="1581525105590">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581525105590" />
+    <state x="278" y="45" width="800" height="670" key="GrepConsoleSettings" timestamp="1581523656666">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="45" width="800" height="670" key="GrepConsoleSettings/0.0.1366.768@0.0.1366.768" timestamp="1581523656666" />
+    <state width="1324" height="405" key="GridCell.Tab.0.bottom" timestamp="1581524990117">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="405" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581524990117" />
+    <state width="1324" height="405" key="GridCell.Tab.0.center" timestamp="1581524990116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="405" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581524990116" />
+    <state width="1324" height="405" key="GridCell.Tab.0.left" timestamp="1581524990116">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="405" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581524990116" />
+    <state width="1324" height="405" key="GridCell.Tab.0.right" timestamp="1581524990117">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="405" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581524990117" />
+    <state width="1324" height="234" key="GridCell.Tab.1.bottom" timestamp="1581514541908">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581514541908" />
+    <state width="1324" height="234" key="GridCell.Tab.1.center" timestamp="1581514541907">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581514541907" />
+    <state width="1324" height="234" key="GridCell.Tab.1.left" timestamp="1581514541907">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581514541907" />
+    <state width="1324" height="234" key="GridCell.Tab.1.right" timestamp="1581514541908">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="234" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581514541908" />
+    <state x="192" y="91" width="924" height="677" key="Maven.ArtifactSearchDialog" timestamp="1581504007429">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="192" y="91" width="924" height="677" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1581504007429" />
+    <state x="166" y="0" width="1024" height="761" key="SettingsEditor" timestamp="1581504412620">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="166" y="0" width="1024" height="761" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581504412620" />
+    <state x="416" y="154" width="524" height="452" key="extract.method.dialog" timestamp="1581502530095">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="416" y="154" width="524" height="452" key="extract.method.dialog/0.0.1366.768@0.0.1366.768" timestamp="1581502530095" />
   </component>
 </project>
