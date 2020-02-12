@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e47558-11f0-4ed7-a1ed-6ca8637b5dfa" name="Default Changelist" comment="tio实现p2p网络">
-      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/P2PClientLinstener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/P2pClientAioHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/MsgPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/P2PServerAioHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ServerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="23e47558-11f0-4ed7-a1ed-6ca8637b5dfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gitImg/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitImg/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitImg/3.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitImg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -69,6 +60,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gitImg" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
@@ -120,8 +114,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581436546331</updated>
-      <workItem from="1581436551700" duration="24267000" />
+      <workItem from="1581436551700" duration="25293000" />
     </task>
+    <task id="LOCAL-00001" summary="tio实现p2p网络">
+      <created>1581526230098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581526230098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,10 +142,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="149" y="103" width="374" height="555" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581515036190" />
-    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2" timestamp="1581525105590">
+    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2" timestamp="1581526229876">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581525105590" />
+    <state x="314" y="0" width="728" height="761" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581526229876" />
     <state x="278" y="45" width="800" height="670" key="GrepConsoleSettings" timestamp="1581523656666">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -188,6 +190,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="166" y="0" width="1024" height="761" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581504412620" />
+    <state x="278" y="119" width="800" height="521" key="Vcs.Push.Dialog.v2" timestamp="1581526238939">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="119" width="800" height="521" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581526238939" />
     <state x="416" y="154" width="524" height="452" key="extract.method.dialog" timestamp="1581502530095">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
